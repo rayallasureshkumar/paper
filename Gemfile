@@ -21,9 +21,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "postgres-pr"
-group :production do
 
+group :production do
+gem 'pg'
 gem 'rails_12factor'
 gem 'thin'
 end
